@@ -1,0 +1,20 @@
+.scroll-helper-active,
+.scroll-helper-inactive {
+  position: fixed;
+  bottom: 1.5vw;
+  left: 1.5vw;
+  background-color: var(--color-light-orange);
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  color: var(--color-white);
+  font-weight: 200;
+}
+
+.scroll-helper-active {
+  opacity: 1;
+}
+
+.scroll-helper-inactive {
+  opacity: 0;
+}

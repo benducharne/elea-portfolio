@@ -1,0 +1,85 @@
+.parcours-item-first {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.parcours-item-not-first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.parcours-text-container {
+  position: relative;
+  width: 35vw;
+  background-color: var(--color-white);
+  left: 40%;
+  transform: translateX(-50%);
+  padding: 3% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.parcours-title {
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  color: var(--color-dark-blue);
+  margin-bottom: 3vw;
+}
+
+.parcours-text {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  font-weight: 300;
+  text-align: justify;
+  hyphens: auto;
+  color: var(--color-dark-blue);
+}
+
+.parcours-text span {
+  font-weight: 400;
+  color: var(--color-light-orange);
+}
+
+.parcours-date {
+  background-color: var(--color-light-orange);
+  color: var(--color-white);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.parcours-image {
+  width: 25vw;
+  max-height: 80vh;
+  max-width: 25vw;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(0, -50%);
+  z-index: -1;
+}
+
+@media all and (max-width: 700px) {
+  .parcours-text-container {
+    transform: translateX(0%);
+    width: 55vw;
+    left: 5%;
+  }
+
+  .parcours-date {
+    left: 100%;
+    padding: 0.5rem 1rem;
+  }
+}

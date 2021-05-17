@@ -1,0 +1,111 @@
+.big-title {
+  background-color: var(--color-orange-pink);
+  width: 100%;
+  padding: 3rem 0;
+  text-align: center;
+  color: var(--color-white);
+  font-family: "Josefin Slab", serif;
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-weight: 500;
+  letter-spacing: 0.1vw;
+}
+
+.rugby-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+  width: 100vw;
+}
+
+.rugby-one-text-container {
+  background-color: var(--color-white);
+  padding: 3% 5%;
+  width: 50vw;
+}
+
+.rugby-title {
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  color: var(--color-dark-blue);
+  margin-bottom: 2vw;
+}
+
+.rugby-text {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  font-weight: 300;
+  text-align: justify;
+  hyphens: auto;
+  color: var(--color-dark-blue);
+}
+
+.rugby-text span {
+  font-weight: 400;
+  color: var(--color-light-orange);
+}
+
+.rugby-text li {
+  margin-top: 1rem;
+}
+
+.rugby-text a {
+  color: var(--color-dark-blue);
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rugby-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.rugby-image-container {
+  background-color: var(--color-white);
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.rugby-image {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+#image-one {
+  margin-top: 1rem;
+}
+
+.rugby-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--color-white);
+}
+
+.rugby-three .rugby-one-text-container {
+  background-color: var(--color-light-pink);
+}
+
+@media all and (max-width: 1100px) {
+  .rugby-one-text-container {
+    width: 80vw;
+  }
+
+  .rugby-image-container {
+    width: 90vw;
+  }
+}

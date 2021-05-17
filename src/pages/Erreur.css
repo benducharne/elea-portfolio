@@ -1,0 +1,11 @@
+.erreur-container {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  font-size: clamp(3rem, 5vw, 5rem);
+  color: var(--color-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

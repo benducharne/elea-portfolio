@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --color-dark-blue: #10344c;
+  --color-light-orange: #e18868;
+  --color-light-pink: #f4ece9;
+  --color-orange-pink: #d19c8d;
+  --color-white: #fff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(180deg, #f4ece9 0%, #f5f3f2 100%);
+}
+
+.primary-button {
+  border: none;
+  background-color: var(--color-light-orange);
+  color: var(--color-white);
+  font-size: clamp(0.8rem, 1.5vw, 0.95rem);
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  padding: 0.9rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  letter-spacing: 0.1rem;
+}
+
+.primary-button:hover {
+  background-color: var(--color-dark-blue);
+}

@@ -1,0 +1,39 @@
+.gotop-button-active,
+.gotop-button-inactive {
+  position: fixed;
+  top: 1.5vw;
+  right: 1.5vw;
+  background-color: var(--color-light-orange);
+  height: 3vw;
+  width: 3vw;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  max-height: 3.5rem;
+  max-width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.gotop-button-active {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.gotop-button-inactive {
+  cursor: default;
+  opacity: 0;
+}
+
+.gotop-button-active:hover {
+  background-color: var(--color-dark-blue);
+}
+
+.gotop-icon {
+  max-width: 90%;
+  max-height: 90%;
+  color: var(--color-white);
+  cursor: pointer;
+}
