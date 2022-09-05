@@ -3,12 +3,12 @@ import "./Parcours.css";
 
 import ParcoursItem from "../components/ParcoursItem/ParcoursItem";
 
-import image_1999 from "../images/parcours_1999.png";
-import image_2004 from "../images/parcours_2004.png";
-import image_2005 from "../images/parcours_2005.png";
-import image_2016 from "../images/parcours_2016.png";
-import image_2017 from "../images/parcours_2017.png";
-import image_2020 from "../images/parcours_2020.png";
+import image_1999 from "../images/parcours_1999.jpg";
+import image_2004 from "../images/parcours_2004.jpg";
+import image_2005 from "../images/parcours_2005.jpg";
+import image_2016 from "../images/parcours_2016.jpg";
+import image_2017 from "../images/parcours_2017.jpg";
+import image_2020 from "../images/parcours_2020.jpg";
 
 function Parcours() {
   return (

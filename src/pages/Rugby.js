@@ -4,10 +4,10 @@ import { useHistory } from "react-router-dom";
 
 import ScrollHelper from "../helpers/ScrollHelper";
 
-import journal from "../images/rugby_journal.png";
-import diplome from "../images/rugby_diplome.png";
-import groupe_ext from "../images/rugby_groupe_ext.png";
-import groupe_int from "../images/rugby_groupe_int.png";
+import journal from "../images/rugby_journal.jpg";
+import diplome from "../images/rugby_diplome.jpg";
+import groupe_ext from "../images/rugby_groupe_ext.jpg";
+import groupe_int from "../images/rugby_groupe_int.jpg";
 
 function Rugby() {
   let history = useHistory();

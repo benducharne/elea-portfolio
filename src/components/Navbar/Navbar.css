@@ -24,7 +24,7 @@ a.current li:before {
   top: 50%;
   transform: translateY(-50%);
   left: 80px;
-  color: var(--color-dark-blue);
+  list-style-type: none;
 }
 
 .nav-list {

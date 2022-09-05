@@ -8,8 +8,8 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 import ScrollHelper from "../helpers/ScrollHelper";
 
-import kiosque from "../images/amorino_kiosque.png";
-import organisation from "../images/amorino_organisation.png";
+import kiosque from "../images/amorino_kiosque.jpg";
+import organisation from "../images/amorino_organisation.jpg";
 
 function Amorino() {
   const [exempleActive, setExempleActive] = useState(false);

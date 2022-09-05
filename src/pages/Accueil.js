@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import elea from "../images/accueil_bienvenue.png";
+import elea from "../images/accueil_bienvenue.jpg";
 import glace from "../images/glace.png";
 import rugby from "../images/rugby.png";
 
